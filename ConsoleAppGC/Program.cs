@@ -35,7 +35,7 @@ namespace ConsoleAppGC
         {
             string anewstring = string.Empty;
             
-            for (int i = 0; i < 200000; i++)
+            for (int i = 0; i < 100000; i++)
             {
                 anewstring += Strings[i];
             }
@@ -47,7 +47,7 @@ namespace ConsoleAppGC
         {
             StringBuilder anewstring = new StringBuilder();
 
-            for (int i = 0; i < 100000; i++)
+            for (int i = 0; i < 200000; i++)
             {
                 anewstring.Append(Strings[i]);
             }
